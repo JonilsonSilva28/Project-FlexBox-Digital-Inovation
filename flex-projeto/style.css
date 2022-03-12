@@ -83,7 +83,7 @@ header .menu{
 }
 
 #quem-somos h2{
-  font: size 32px;
+  font-size: 32px;
   color:#112A57 ;
   display: flex;
   margin-bottom: 20px;
@@ -103,7 +103,7 @@ header .menu{
 }
 
 #quem-somos img{
-  min: width 420px;
+  min-width: 420px;
 }
 
 .container-externo{
@@ -112,12 +112,15 @@ header .menu{
 }
 #servicos{
   flex-direction: column;
-  padding: 100px 0;
+  padding-top: 50px;
+  padding: bottom 100px;
+
 }
 
-.servicos h2{
-  color: #fff;
-  
+#servicos h2{
+color: #fff;
+font-size: 32px;
+margin: bottom 10px;;
 
 }
 
@@ -126,6 +129,35 @@ header .menu{
   justify-content:space-around;
 }
 
-.list-servicos .list-item{
+.list-container .list-item{
   text-align:center;
+}
+
+.item-servicos a{
+  width:220px;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 50px;
+  text-align: center;
+  margin: top 20px;
+  line-height: 50px;
+  padding: 5px 10px ;
+  color: #112A57;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.item-servicos p{
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin: top 20px;
+  
+}
+
+.item-servicos img{
+  width: 80%;
+  margin: auto;
+
 }
