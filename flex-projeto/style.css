@@ -97,7 +97,7 @@ header .menu{
   background-color: #112A57;
   position: relative;
 }
-#quem-somos{
+#quem-somos p{
   margin-bottom: 10px;
   width: 90%;
 }
@@ -126,10 +126,10 @@ margin: bottom 10px;;
 
 .list-servicos{
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
 }
 
-.list-container .list-item{
+.list-servicos .item-servicos{
   text-align:center;
 }
 
@@ -139,7 +139,7 @@ margin: bottom 10px;;
   border-radius: 30px;
   height: 50px;
   text-align: center;
-  margin: top 20px;
+  margin-top: 20px;
   line-height: 50px;
   padding: 5px 10px ;
   color: #112A57;
@@ -152,7 +152,7 @@ margin: bottom 10px;;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
-  margin: top 20px;
+  margin-top: 20px;
   
 }
 
