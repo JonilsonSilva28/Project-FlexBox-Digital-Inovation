@@ -7,16 +7,16 @@
 ul{
   list-style: none;
   margin: 0;
-  padding: 0;
-  
-}
-div img{
-  display: block;
-  width: 100%;
+  padding: 0;  
 }
 
 ul li a{
   text-decoration: none;
+}
+
+div img{
+  display: block;
+  width: 100%;
 }
 
 .flex-container{
@@ -27,7 +27,7 @@ ul li a{
 }
 
 header{
-  background-color: #112A57;
+  background-color: #122A57;
   height: 100px;
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@ header .list-items{
   justify-content:space-between;
   align-items:center;
 }
-.list-items{
+.list-items li a{
   color: #fff;
 }
 
@@ -57,12 +57,12 @@ header .menu{
   min-height: 200px;
 }
 .texto-apresentacao h1{
-  color: #112A57;
-  font: size 48px;
-  margin: bottom 10px;
+  color: #122A57;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
-.texto-apresentacao a{
-  background-color: #112A57;
+.btn{
+  background-color: #122A57;
   color: #fff;
   text-align:center;
   border-radius: 30px;
@@ -71,8 +71,8 @@ header .menu{
   text-decoration: none;
   height: 50px;
   line-height:50px;
-  margin: top 10px;
-  margin: bottom 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -84,7 +84,7 @@ header .menu{
 
 #quem-somos h2{
   font-size: 32px;
-  color:#112A57 ;
+  color:#122A57 ;
   display: flex;
   margin-bottom: 20px;
 }
@@ -94,7 +94,7 @@ header .menu{
   height: 50px;
   width: 5px;
   margin-right: 5px;
-  background-color: #112A57;
+  background-color: #122A57;
   position: relative;
 }
 #quem-somos p{
@@ -107,20 +107,20 @@ header .menu{
 }
 
 .container-externo{
-  background-color: #112A57;
+  background-color: #122A57;
   width: 100%;
 }
 #servicos{
   flex-direction: column;
   padding-top: 50px;
-  padding: bottom 100px;
+  padding-bottom: 100px;
 
 }
 
 #servicos h2{
 color: #fff;
 font-size: 32px;
-margin: bottom 10px;;
+margin: bottom 20px;;
 
 }
 
@@ -142,7 +142,7 @@ margin: bottom 10px;;
   margin-top: 20px;
   line-height: 50px;
   padding: 5px 10px ;
-  color: #112A57;
+  color: #122A57;
   font-size: 12px;
   text-decoration: none;
   font-weight: 700;
@@ -159,5 +159,22 @@ margin: bottom 10px;;
 .item-servicos img{
   width: 80%;
   margin: auto;
+
+}
+
+#planos{
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.list-planos{
+  display: flex;
+  align-items:flex-end;
+}
+
+.item-plano{
+  flex: 1;
+  border:5px solid #122A57;
+  margin-right: 20px;
 
 }
